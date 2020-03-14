@@ -1,0 +1,12 @@
+server:
+  port: 8004
+eureka:
+  instance:
+    hostname: ribbon-client
+  client:
+    service-url: 
+      defaultZone:
+        http://eureka01:8001/eureka/
+spring:
+  application:
+    name: ribbon-client

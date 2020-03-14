@@ -1,0 +1,30 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01:8001/eureka/
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      # 指定读取路径 uri: http://localhost:8769
+      fail-fast: true
+      discovery:
+        service-id: config-server
+        enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true
+    virtual-host: /
+  profiles:
+    active: dev
+
+management: #屏蔽安全验证
+  security:
+    enabled: false
+
+server:
+  port: ${PORT:8762}

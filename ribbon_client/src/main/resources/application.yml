@@ -1,0 +1,10 @@
+server:
+  port: 8769
+  #配置这些服务实例的Uri
+stores:
+  ribbon:
+    listOfServers: examplae.com,goole.com
+# 禁止调用Eureka Client 获取注册列表
+ribbon:
+  eureka:
+    enabled: false

@@ -1,0 +1,26 @@
+server:
+  port: 8009
+eureka:
+  instance:
+    hostname: service-zuul
+  client:
+    service-url: 
+      defaultZone:
+        http://eureka01:8001/eureka/
+    register-with-eureka: true
+  
+spring:
+  application:
+    name: service-zuul
+    
+zuul:
+  routes: 
+    hiapi:
+      path: /hiapi/**
+      serviceId: eureka-client
+    ribbonapi:
+      path: /ribbonapi/**
+      serviceId: ribbon-client
+    feignapi:
+      path: /feignapi/**
+      serviceId: feign-client

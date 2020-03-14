@@ -1,0 +1,23 @@
+server:
+  port: 8008
+eureka:
+  instance:
+    hostname: feign-client
+  client:
+    service-url:
+      defaultZone:
+        http://eureka01:8001/eureka/
+    register-with-eureka: true
+
+spring:
+  application:
+    name: fegin-client
+    
+ribbon:
+  eureka:
+    enabled: true
+    
+feign:
+  hystrix:
+    enabled: true
+    

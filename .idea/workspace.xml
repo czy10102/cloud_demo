@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b19ab546-4626-4b31-a1b1-ccb78d9be934" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Config\Maven\maven_repository" />
+        <option name="userSettingsFile" value="E:\Config\Maven\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1YyMjL9PBxQ3UgEeSpRUoeDm7CU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.czy.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\studySpringcloud\springcloud_one" />
+      <recent name="D:\studySpringcloud\springcloud_one\config_server\src\main\resources" />
+      <recent name="D:\studySpringcloud\springcloud_one\config_server\src\main\resources\shared" />
+      <recent name="D:\studySpringcloud\springcloud_one\config_server" />
+      <recent name="D:\studySpringcloud\springcloud_one\eureka_zuul_client\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package" />
+      <command value="mvn package" />
+      <command value="mvn java -jar eureka.jar --spring.profiles.active=peer1 java -jar eureka.jar --spring.profiles.active=peer2" />
+      <command value="mvn update" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ConfigClientApp">
+    <configuration name="ConfigClientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czy.ConfigClientApp" />
+      <module name="config_client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApp1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.czy.ConfigClientApp" />
+      <module name="config_client" />
+      <option name="VM_PARAMETERS" value="-DPORT=8763" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czy.ConfigServerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApp1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czy.ConfigServerApp" />
+      <option name="VM_PARAMETERS" value="-DPORT=8710" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka_client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czy.controler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czy.EurekaClientApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApp1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka_client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czy.controler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czy.EurekaClientApp" />
+      <option name="VM_PARAMETERS" value="-DPORT=8007" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka_server01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czy.controler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czy.EurekaServerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka_zuul_client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czy.ZuulApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ConfigClientApp1" />
+      <item itemvalue="Application.ConfigClientApp" />
+      <item itemvalue="Spring Boot.EurekaClientApp1" />
+      <item itemvalue="Spring Boot.ConfigServerApp1" />
+      <item itemvalue="Spring Boot.EurekaClientApp" />
+      <item itemvalue="Spring Boot.EurekaServerApp" />
+      <item itemvalue="Spring Boot.ZuulApp" />
+      <item itemvalue="Spring Boot.ConfigServerApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConfigClientApp" />
+        <item itemvalue="Spring Boot.EurekaServerApp" />
+        <item itemvalue="Spring Boot.ConfigServerApp" />
+        <item itemvalue="Spring Boot.EurekaClientApp" />
+        <item itemvalue="Spring Boot.ZuulApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b19ab546-4626-4b31-a1b1-ccb78d9be934" name="Default Changelist" comment="" />
+      <created>1583910514725</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583910514725</updated>
+      <workItem from="1583910516014" duration="897000" />
+      <workItem from="1583911421599" duration="168000" />
+      <workItem from="1583911593450" duration="21000" />
+      <workItem from="1583911650433" duration="2190000" />
+      <workItem from="1583913849794" duration="27753000" />
+      <workItem from="1583992187743" duration="1226000" />
+      <workItem from="1583993446652" duration="78000" />
+      <workItem from="1583993540187" duration="77000" />
+      <workItem from="1583993620990" duration="440000" />
+      <workItem from="1583994068135" duration="1066000" />
+      <workItem from="1583995148007" duration="291000" />
+      <workItem from="1583995444126" duration="163000" />
+      <workItem from="1583995611825" duration="176000" />
+      <workItem from="1583995791692" duration="116000" />
+      <workItem from="1583995914295" duration="137000" />
+      <workItem from="1583996054722" duration="239000" />
+      <workItem from="1583996296393" duration="106000" />
+      <workItem from="1583996406307" duration="52000" />
+      <workItem from="1583996461088" duration="72000" />
+      <workItem from="1583996535548" duration="86000" />
+      <workItem from="1583996632230" duration="64000" />
+      <workItem from="1583996708631" duration="44000" />
+      <workItem from="1583996762457" duration="63000" />
+      <workItem from="1583996828917" duration="32000" />
+      <workItem from="1583996867026" duration="52000" />
+      <workItem from="1583996934051" duration="73000" />
+      <workItem from="1583997030306" duration="533000" />
+      <workItem from="1584006785020" duration="1637000" />
+      <workItem from="1584012710799" duration="152000" />
+      <workItem from="1584012867393" duration="5317000" />
+      <workItem from="1584064488763" duration="152000" />
+      <workItem from="1584064646106" duration="3352000" />
+      <workItem from="1584068007051" duration="729000" />
+      <workItem from="1584068740646" duration="221000" />
+      <workItem from="1584068978759" duration="407000" />
+      <workItem from="1584069389208" duration="3301000" />
+      <workItem from="1584072697840" duration="15085000" />
+      <workItem from="1584088488948" duration="3419000" />
+      <workItem from="1584091948487" duration="924000" />
+      <workItem from="1584092881320" duration="178000" />
+      <workItem from="1584093178791" duration="2325000" />
+      <workItem from="1584096426905" duration="923000" />
+      <workItem from="1584097354445" duration="63000" />
+      <workItem from="1584097426209" duration="216000" />
+      <workItem from="1584097646015" duration="713000" />
+      <workItem from="1584098364606" duration="6614000" />
+    </task>
+    <task id="LOCAL-00001" summary="verson">
+      <created>1584150823070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584150823070</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <option name="searchClosedTasks" value="true" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="verson" />
+    <option name="LAST_COMMIT_MESSAGE" value="verson" />
+  </component>
+</project>
